@@ -42,15 +42,15 @@ switch (true) {
         break;
     
     case question === 'mult':
-        alert(`${arr.join('*')} = ${mult}`);
+        alert(`${arr.join(' * ')} = ${mult}`);
         break;
     
     case question === 'sub':
-        alert(`${arr.join('-')} = ${sub}`);
+        alert(`${arr.join(' - ')} = ${sub}`);
         break;
     
     case question === 'div':
-        alert(`${arr.join('/')} = ${div}`);
+        alert(`${arr.join(' / ')} = ${div}`);
         break;
     
     default:
