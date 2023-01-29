@@ -1,5 +1,9 @@
 let question = prompt('Enter add, sub, mult, div');
 
+do {
+    question = prompt('Enter add, sub, mult, div');
+} while (question !== 'add' && question !== 'sub' && question !== 'mult' && question !== 'div');
+
 let num = prompt('Enter 2 numbers separated by commas');
 
 let arr = num.split(',');
