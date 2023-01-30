@@ -32,28 +32,23 @@ arr.forEach(
     }
 );
 
-let div = 100;
+let div = arr[0] / arr[1];
 
-arr.forEach(
-    (elem) => {
-        div /= Number(elem)
-    }
-);
 
-switch (true) {
-    case question === 'add':
+switch (question) {
+    case 'add':
         alert(`${arr.join(' + ')} = ${sum}`);
         break;
     
-    case question === 'mult':
+    case 'mult':
         alert(`${arr.join(' * ')} = ${mult}`);
         break;
     
-    case question === 'sub':
+    case 'sub':
         alert(`${arr.join(' - ')} = ${sub}`);
         break;
     
-    case question === 'div':
+    case 'div':
         alert(`${arr.join(' / ')} = ${div}`);
         break;
     
